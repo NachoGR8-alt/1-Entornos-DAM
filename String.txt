@@ -1,0 +1,26 @@
+1) Indica quienes son los autores de la clase String.
+Oracle
+2) Indica los métodos deprecated que hay en la clase y que problemas nos pueden
+traer su utilización.
+
+String(byte[] ascii, int hibyte)
+String(byte[] ascii, int hibyte, int offset, int count)
+Estos métodos son deprecated porque utilizan un enfoque antiguo para manejar caracteres ASCII y pueden causar errores con codificaciones más modernas. Además, podrían ser eliminados en futuras versiones de Java.
+3) Indica que funcionalidad tiene el método lastIndexOf(String str)
+
+El método lastIndexOf(String str) devuelve el índice donde aparece por última vez la subcadena str dentro de la cadena. Si no la encuentra, devuelve -1
+
+4) Indica cuales son los parámetros de entrada del método public String
+replace(char oldChar, char newChar) indicando la descripción de estos
+parámetros. Indica, además, dos de los ejemplos que han puesto en la
+descripción del método.
+oldChar: Es el carácter que quieres reemplazar.
+newChar: Es el carácter por el cual será reemplazado.
+
+"hello".replace('l', 'x');  Devuelve "hexxo"
+"java".replace('a', 'o');  Devuelve "jovo"
+
+5) Indica cual es el parámetro de salida del método String[] split(String regex, int
+limit).
+
+Este método devuelve un array de cadenas (String[]) que contiene las partes de la cadena separadas según el delimitador regex.
